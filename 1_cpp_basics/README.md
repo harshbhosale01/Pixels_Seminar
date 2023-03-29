@@ -69,9 +69,11 @@ int main()
 ```
 
 **Output:**
-
-
-<img src="../assets/images/implicit_typecast.png">
+```
+x = 107
+y = a
+z = 108
+```
 
 
 2.**Explicit Type Conversion:** This process is also called type casting and it is user-defined. Here the user can typecast the result to make it of a particular data type.
@@ -102,8 +104,9 @@ int main()
 
 ```
 **Output:**
-
-<img src="../assets/images/explicit.png">
+```
+Sum = 2
+```
 
 
 ## **Namespace:**
@@ -152,8 +155,9 @@ int main()
 
 ```
 **Output:**
-
-<img src="../assets/images/namespace.png">
+```
+Inside first_space
+```
 
 
 ## **Conditional Statements:**
@@ -177,9 +181,9 @@ int main()
 
 ```
 **Output:**
-
-<img src="../assets/images/if.png">
-
+```
+Hello From SRA
+```
 
 2.**If-else:**
 ```C++
@@ -202,8 +206,9 @@ int main()
 }
 ```
 **Output:**
-
-<img src="../assets/images/ifelse.png">
+```
+the number is even
+```
 
 
 3.**Switch statement:**
@@ -247,8 +252,9 @@ int main()
 ```
 
 **Output**
-
-<img src="../assets/images/switch.png">
+```
+Thursday
+```
 
 
 ## **Control Loops:**
@@ -331,8 +337,9 @@ int main()
 ```
 
 **Output:**
-
-<img src="../assets/images/enum.png">
+```
+Summer = 4
+```
 
 
 In the above code we first made an enum datatype `seasons` ,having elements `spring,summer,autumn and winter` and assigned them values of 34,4,9,32 respectively.Then we made a variable `s` of data type `seasons` i.e enum and assigned it the value of `summer`i.e value of summer(4) is stored in `s` variable.  
@@ -381,8 +388,9 @@ int main()
 
 ```
 **Output:**
-
-<img src="../assets/images/func.png">
+```
+m is 20
+```
 
 
 ## **Classes And Objects:**
@@ -446,8 +454,11 @@ int main()
 
 ```
 **Output:**
+```
+First letter of my name  is: v
+SRA id is: 24
+```
 
-<img src="../assets/images/classesnew.png">
 
 
 
@@ -484,8 +495,11 @@ int main()
 
 ```
 **Output:**
+```
+Addition of i and j is :5
+Addition of m and n is :3.5
+```
 
-<img src="../assets/images/templates.png">
 
 
 
@@ -513,8 +527,10 @@ int main()
 
   ```
 **Output:**
+```
+Addition of num1 and num2 : 11
+```
 
-<img src="../assets/images/templclass.png">
 
 
 ## **Arrays :**
@@ -582,8 +598,13 @@ int main()
 ```
 
 **Output:**
-
-<img src="../assets/images/print1darr.png">
+```
+Values of Array are: 1
+Values of Array are: 2
+Values of Array are: 3
+Values of Array are: 4
+Values of Array are: 5
+```
 
 
  ## **Multidimensional Arrays :**
@@ -638,8 +659,14 @@ int main()
 ```
 
 **Output:**
+```
+Printing a 2D Array:
+    10   11
+    20   21
+    30   31
+    40   41
+```
 
-<img src="../assets/images/2darray.png">
 
 In the above code
 
@@ -686,8 +713,12 @@ int main()
  ```
    
  **The output of above code is :**
+```
+Address of number variable is:0x7fffff82c4d
+Address of p variable is:0x7fffff82c4d
+Value of p variable is: 30
+```
 
- <img src="../assets/images/pointers.png">
  
  In the above code:
  1. We first created a integer **`number`** and assigned it the value 30 .
@@ -728,8 +759,13 @@ int main()
 
 ```
 The output is:
+```
+Row0: 1   2
+Row1: 1   2
+Row2: 1   2
+Row3: 1   2
+```
 
-<img src="../assets/images/2darrnpoin.png">
 
 Here,
 
@@ -802,8 +838,16 @@ int main()
 
 ```
 **Output:**
+```
+10   11   12   13
+14   15   16   17
+18   19   20   21
 
-<img src="../assets/images/2dtofunc.png">
+10   11   12   13
+14   15   16   17
+18   19   20   21
+```
+
 
 Here,
 
@@ -873,9 +917,13 @@ int main()
 
 ```
 **Output :**
+```
+vector1 = 1 2 3 4 5
+vector2 = 6 7 8 9 10
+vector3 = 12 12 12 12 12
+```
 
 
-<img src="../assets/images/vector1.png">
 
 **2. Add Elements to a Vector :**
 ```C++
@@ -912,8 +960,10 @@ int main()
 Here, we have initialized an int vector num with the elements {1, 2, 3, 4, 5}. Here, the **`push_back()`** function adds elements 6 and 7 to the vector.
 
 **Output :**
-
-<img src="../assets/images/vector2.png">
+```
+Initial Vector: 1 2 3 4 5
+Updated Vector: 1 2 3 4 5 6 7  
+```
 
 **3. Access Elements of a Vector :**
 
@@ -938,9 +988,12 @@ int main()
 We use the index number to access the vector elements. Here, we use the **`at()`** function to access the element from the specified index.
 
 **Output :**
+```
+Element at Index 0: 1
+Element at Index 2: 3
+Element at Index 4: 5
+```
 
-
-<img src="../assets/images/vector3.png">
 
 
 
